@@ -1,0 +1,14 @@
+"""Écrivez un programme Python pour obtenir la série de Fibonacci entre 0 et 50.
+
+Remarque : La Suite de Fibonacci est la série de nombres :
+0, 1, 1, 2, 3, 5, 8, 13, 21, ....
+Chaque nombre suivant est trouvé en additionnant les deux nombres qui le précèdent. """
+
+x = 0
+y = 1
+
+while x <= 50:
+    print(x)
+    temp = x
+    x = y 
+    y = temp + y
